@@ -6,13 +6,27 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            String naam;
+            string naam;
+            string mood;
 
             Console.WriteLine("Hello world!");
             Console.WriteLine("Wie ben jij ?");
            
             naam = Console.ReadLine();
             Console.WriteLine("Hallo " + naam);
+            Console.WriteLine("Hoe gaat het met jouw ");
+            mood = Console.ReadLine();
+
+            Console.Write("Met mij gaat het ook ");
+            Console.Write(mood);
+            Console.WriteLine(".");
+
+            Console.WriteLine("Met mij gaat het ook " + mood);
+           
+            Console.WriteLine("Met mij gaat het ook {0} ", mood);
+            Console.WriteLine($"Met mij gaat het ook {mood}");
+
+
             Console.ReadLine();
         }
     }

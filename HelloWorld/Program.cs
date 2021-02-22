@@ -9,7 +9,8 @@ namespace HelloWorld
             String naam;
 
             Console.WriteLine("Hello world!");
-            Console.WriteLine("Wie ben jij");
+            Console.WriteLine("Wie ben jij ?");
+           
             naam = Console.ReadLine();
             Console.WriteLine("Hallo " + naam);
             Console.ReadLine();

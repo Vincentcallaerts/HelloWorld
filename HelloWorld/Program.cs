@@ -8,6 +8,7 @@ namespace HelloWorld
         {
             string naam;
             string mood;
+            string heleZin;
 
             Console.WriteLine("Hello world!");
             Console.WriteLine("Wie ben jij ?");
@@ -26,6 +27,8 @@ namespace HelloWorld
             Console.WriteLine("Met mij gaat het ook {0} ", mood);
             Console.WriteLine($"Met mij gaat het ook {mood}");
 
+            heleZin = $"Met mij gaat het ook {mood}.";
+            Console.WriteLine(heleZin);
 
             Console.ReadLine();
         }
